@@ -17,9 +17,21 @@
 @synthesize vcTypeBankOfSTraat;
 
 SRDKoersTVC *koersTVC;
+
+//- (void)loadView
+//{
+//    // Create a view
+////    BNRHypnosisView *backgroundView = [[BNRHypnosisView alloc] init];
+////    
+////    // Set it as *the* view of this view controller
+////    self.view = backgroundView;
+//    NSLog(@"loadView SRDKoersTVC");
+//}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    
     koersTVC = [[SRDKoersTVC alloc] init];
 //                initWithNibName:@"SRDKoersTVC.h" bundle:nil];
     if ([self.vcTypeBankOfSTraat
@@ -30,7 +42,8 @@ SRDKoersTVC *koersTVC;
         self.lblStraatOfBank.text = @"BANK KOERSEN";
         koersTVC.vcTypeStraatOfBank = @"bank";
     }
-    
+    self.lblStraatOfBank.font = [UIFont fontWithName:@"HelveticaNeue-SemiBold" size:17.0f];
+    self.lblAdv.font = [UIFont fontWithName:@"HelveticaNeue-Thin" size:17.0f];
     koersTVC.view.frame = self.tblView.bounds;
     [self addChildViewController:koersTVC];
     [self.tblView addSubview:koersTVC.view];

@@ -16,11 +16,18 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    SRDConversieTVC *conversieTVC = [[SRDConversieTVC alloc] init];
+    
+    conversieTVC.view.frame = self.tblVw.bounds;
+    [self addChildViewController:conversieTVC];
+    [self.tblVw addSubview:conversieTVC.view];
+    [conversieTVC didMoveToParentViewController:self];
     // Do any additional setup after loading the view from its nib.
-    self.valueTo.delegate = self;
-    self.valueFrom.delegate = self;
-    self.valueFrom.keyboardType=UIKeyboardTypeDecimalPad;
-    self.valueTo.keyboardType=UIKeyboardTypeDecimalPad;
+//    self.valueTo.delegate = self;
+//    self.valueFrom.delegate = self;
+//    self.valueFrom.keyboardType=UIKeyboardTypeDecimalPad;
+//    self.valueTo.keyboardType=UIKeyboardTypeDecimalPad;
 
 }
 
@@ -32,11 +39,11 @@
 
 - (BOOL)textFieldShouldReturn:(UITextField *)textField
 {
-    if ([textField isEqual:self.valueTo] == YES)
-    {
-        [self.valueTo resignFirstResponder];
-    }
+//    if ([textField isEqual:self.valueTo] == YES)
 //    {
+//        [self.valueTo resignFirstResponder];
+//    }
+////    {
 //        [self.secondField becomeFirstResponder];
 //    }
 //    else

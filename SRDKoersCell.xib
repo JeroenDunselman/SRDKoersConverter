@@ -25,16 +25,13 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$ 7.80" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AUV-Ln-dO6">
-                                <rect key="frame" x="8" y="37" width="143" height="54"/>
+                                <rect key="frame" x="8" y="37" width="104" height="45"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="37"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0.00%" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JAL-eF-0rZ">
-                                <rect key="frame" x="181" y="37" width="48" height="21"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="48" id="0is-Lf-fW4"/>
-                                </constraints>
+                                <rect key="frame" x="181" y="43" width="48" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
@@ -42,14 +39,12 @@
                         </subviews>
                         <color key="backgroundColor" red="0.97647058819999999" green="0.36470588240000001" blue="0.035294117649999998" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="AUV-Ln-dO6" firstAttribute="top" secondItem="JAL-eF-0rZ" secondAttribute="top" id="6If-av-YOO"/>
-                            <constraint firstItem="AUV-Ln-dO6" firstAttribute="leading" secondItem="FTv-fn-BbV" secondAttribute="leading" id="H0x-GK-dEv"/>
-                            <constraint firstAttribute="bottom" secondItem="AUV-Ln-dO6" secondAttribute="bottom" constant="6" id="J9p-wM-MVM"/>
-                            <constraint firstAttribute="trailing" secondItem="JAL-eF-0rZ" secondAttribute="trailing" constant="75" id="JUY-ff-PKZ"/>
-                            <constraint firstItem="JAL-eF-0rZ" firstAttribute="top" secondItem="z90-hP-LBk" secondAttribute="top" constant="37" id="Nz9-vO-uuH"/>
-                            <constraint firstItem="AUV-Ln-dO6" firstAttribute="leading" secondItem="z90-hP-LBk" secondAttribute="leading" constant="8" id="PhT-UZ-6jO"/>
-                            <constraint firstItem="AUV-Ln-dO6" firstAttribute="top" secondItem="FTv-fn-BbV" secondAttribute="bottom" constant="8" symbolic="YES" id="Riq-sv-5RH"/>
-                            <constraint firstItem="JAL-eF-0rZ" firstAttribute="leading" secondItem="AUV-Ln-dO6" secondAttribute="trailing" constant="30" id="mUr-eo-HuH"/>
+                            <constraint firstItem="FTv-fn-BbV" firstAttribute="leading" secondItem="z90-hP-LBk" secondAttribute="leadingMargin" id="2n3-nP-rk0"/>
+                            <constraint firstItem="FTv-fn-BbV" firstAttribute="top" secondItem="z90-hP-LBk" secondAttribute="topMargin" id="8Ue-v7-bqu"/>
+                            <constraint firstItem="AUV-Ln-dO6" firstAttribute="top" secondItem="FTv-fn-BbV" secondAttribute="bottom" constant="8" symbolic="YES" id="Y0P-u9-wdl"/>
+                            <constraint firstItem="AUV-Ln-dO6" firstAttribute="top" secondItem="JAL-eF-0rZ" secondAttribute="top" constant="-6" id="pbb-aa-0Hr"/>
+                            <constraint firstItem="FTv-fn-BbV" firstAttribute="leading" secondItem="AUV-Ln-dO6" secondAttribute="leading" id="rgo-r4-jV8"/>
+                            <constraint firstItem="JAL-eF-0rZ" firstAttribute="leading" secondItem="AUV-Ln-dO6" secondAttribute="trailing" constant="69" id="udW-OR-iFT"/>
                         </constraints>
                     </view>
                 </subviews>
@@ -62,8 +57,9 @@
             </tableViewCellContentView>
             <connections>
                 <outlet property="bgValuta" destination="z90-hP-LBk" id="Fb4-7T-8c6"/>
+                <outlet property="hdr" destination="FTv-fn-BbV" id="mnr-bW-rIJ"/>
             </connections>
-            <point key="canvasLocation" x="140" y="273"/>
+            <point key="canvasLocation" x="44" y="272"/>
         </tableViewCell>
     </objects>
 </document>

@@ -10,5 +10,8 @@
 
 @interface SRDKoersCell : UITableViewCell
 @property (weak, nonatomic) IBOutlet UIView *bgValuta;
+@property (weak, nonatomic) IBOutlet UILabel *hdr;
+@property (weak, nonatomic) IBOutlet UILabel *val;
+@property (weak, nonatomic) IBOutlet UILabel *perc;
 
 @end

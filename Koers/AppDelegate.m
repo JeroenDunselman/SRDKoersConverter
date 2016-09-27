@@ -47,17 +47,19 @@
 //    SRDKoersTVC *bank = [[SRDKoersTVC alloc] init];
 //    bank.vcTypeStraatOfBank = @"bank";
 //
-    SRDConversieTVC *test = [[SRDConversieTVC alloc] init] ;
-    
+//    SRDConversieTVC *test = [[SRDConversieTVC alloc] init] ;
+//    SRDConversie *test = [[SRDConversie alloc] init] ;
     SRDKoersViewController *straat = [[SRDKoersViewController alloc] initWithNibName:@"SRDKoersViewController" bundle:nil];
     straat.vcTypeBankOfSTraat = @"straat";
     SRDKoersViewController *bank = [[SRDKoersViewController alloc] initWithNibName:@"SRDKoersViewController" bundle:nil];
     bank.vcTypeBankOfSTraat = @"bank";
-    SRDConversieTVC *conversie = [[SRDConversieTVC alloc] init] ;
+    SRDConversie *conversie = [[SRDConversie alloc] init] ;
+//    [[SRDConversieTVC alloc] init] ;
     SRDInfo *info = [[SRDInfo alloc] initWithNibName:@"SRDInfo" bundle:nil];
 
-    self.tabBarController.viewControllers = [NSArray arrayWithObjects: test, straat, bank, conversie, info, nil];
-//self.tabBarController.viewControllers = [NSArray arrayWithObjects: straat, nil];
+    self.tabBarController.viewControllers = [NSArray arrayWithObjects:
+//                                             test,
+                                             straat, bank, conversie, info, nil];
 }
 
 

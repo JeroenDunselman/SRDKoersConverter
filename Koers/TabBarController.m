@@ -16,16 +16,17 @@
 - (void)viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear:animated];
-    
-    NSArray* titleKeys = [NSArray arrayWithObjects:@"Test", @"Straat",
+//      @"Attention", @"Test", @"localizablekey5",
+    NSArray* titleKeys = [NSArray arrayWithObjects:
+//                          @"Test",
+                          @"Straat",
                           @"Bank",
                           @"Conversie",
                           @"Info",
                           nil];
-    NSArray* imgKeys = [NSArray arrayWithObjects:@"Currency Exchange-100",
-                          @"Wall",
-                          @"Chat",
-                          @"Invite",@"localizablekey5",
+    NSArray* imgKeys = [NSArray arrayWithObjects:
+//                        @"Attention",
+                        @"Road", @"Library", @"Currency", @"Attention",
                           nil];
     [super viewWillAppear:animated];
     int count = 0; for (UIViewController* viewController in self.viewControllers){
@@ -59,14 +60,14 @@
     [super viewWillLayoutSubviews];
     
     [self.tabBar invalidateIntrinsicContentSize];
-    
-    CGFloat tabSize = 44.0;
+    float fctr = 1.65f;
+    CGFloat tabSize = fctr * 44.0;
     
     UIInterfaceOrientation orientation = [UIApplication sharedApplication].statusBarOrientation;
     
     if (UIInterfaceOrientationIsLandscape(orientation))
     {
-        tabSize = 32.0;
+        tabSize = fctr * 32.0;
     }
     
     CGRect tabFrame = self.tabBar.frame;

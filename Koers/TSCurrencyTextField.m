@@ -56,6 +56,14 @@
     [self setText: @"0"];
 }
 
+-(BOOL)canPerformAction:(SEL)action withSender:(id)sender {
+//    if (action == @selector(copy:) || action == @selector(paste:)) {
+//        return NO;
+//    }
+//    return [super canPerformAction:action withSender:sender];
+return NO;
+}
+
 - (void) setCaratPosition: (NSInteger) pos
 {
     [self setSelectionRange: NSMakeRange( pos, 0) ];

@@ -7,6 +7,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SRDKoersViewController">
             <connections>
+                <outlet property="lblAdv" destination="XqG-Y7-oSN" id="Dz1-63-VFR"/>
                 <outlet property="lblStraatOfBank" destination="Umb-nk-g4C" id="6kY-Dp-08k"/>
                 <outlet property="tblView" destination="eZF-h7-4Gc" id="dpe-fC-rTD"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
@@ -18,7 +19,7 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eZF-h7-4Gc">
-                    <rect key="frame" x="8" y="104" width="584" height="424"/>
+                    <rect key="frame" x="0.0" y="136" width="600" height="400"/>
                     <color key="backgroundColor" red="0.5568627451" green="0.64705882349999999" blue="0.28627450980000002" alpha="1" colorSpace="calibratedRGB"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="128" id="3Cv-RK-jP4"/>
@@ -32,19 +33,19 @@
                     </variation>
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gMF-mI-Og4">
-                    <rect key="frame" x="0.0" y="32" width="600" height="64"/>
+                    <rect key="frame" x="0.0" y="72" width="600" height="64"/>
                     <subviews>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Umb-nk-g4C">
                             <rect key="frame" x="220" y="21" width="160" height="21"/>
                             <constraints>
                                 <constraint firstAttribute="width" constant="160" id="0Ll-Vk-08t"/>
                             </constraints>
-                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             <nil key="highlightedColor"/>
                         </label>
                     </subviews>
-                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <color key="backgroundColor" red="0.27450980390000002" green="0.27450980390000002" blue="0.27450980390000002" alpha="1" colorSpace="calibratedRGB"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="64" id="E38-Bw-ic0"/>
                         <constraint firstItem="Umb-nk-g4C" firstAttribute="centerX" secondItem="gMF-mI-Og4" secondAttribute="centerX" id="EPm-Us-TPe"/>
@@ -86,16 +87,16 @@
             <constraints>
                 <constraint firstItem="gMF-mI-Og4" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="3G2-zz-HaV"/>
                 <constraint firstAttribute="bottom" secondItem="dfw-md-fek" secondAttribute="bottom" id="LRX-W7-FnG"/>
-                <constraint firstItem="dfw-md-fek" firstAttribute="top" secondItem="eZF-h7-4Gc" secondAttribute="bottom" constant="8" id="NvT-iW-RuE"/>
+                <constraint firstItem="dfw-md-fek" firstAttribute="top" secondItem="eZF-h7-4Gc" secondAttribute="bottom" id="NvT-iW-RuE"/>
                 <constraint firstAttribute="trailing" secondItem="gMF-mI-Og4" secondAttribute="trailing" id="PXS-rf-l4v"/>
-                <constraint firstItem="eZF-h7-4Gc" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="8" id="WMd-LW-PBV"/>
+                <constraint firstItem="eZF-h7-4Gc" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="WMd-LW-PBV"/>
                 <constraint firstItem="dfw-md-fek" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="bFu-jJ-1aB"/>
-                <constraint firstItem="eZF-h7-4Gc" firstAttribute="top" secondItem="gMF-mI-Og4" secondAttribute="bottom" constant="8" id="e6J-rX-sj2"/>
+                <constraint firstItem="eZF-h7-4Gc" firstAttribute="top" secondItem="gMF-mI-Og4" secondAttribute="bottom" id="e6J-rX-sj2"/>
                 <constraint firstItem="dfw-md-fek" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="g3V-rD-An6"/>
                 <constraint firstAttribute="trailing" secondItem="dfw-md-fek" secondAttribute="trailing" id="iRe-Se-sb0"/>
                 <constraint firstItem="gMF-mI-Og4" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="jaz-3d-FPi"/>
-                <constraint firstAttribute="trailing" secondItem="eZF-h7-4Gc" secondAttribute="trailing" constant="8" id="jo0-oo-dlo"/>
-                <constraint firstItem="gMF-mI-Og4" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="32" id="sne-kQ-NAY"/>
+                <constraint firstAttribute="trailing" secondItem="eZF-h7-4Gc" secondAttribute="trailing" id="jo0-oo-dlo"/>
+                <constraint firstItem="gMF-mI-Og4" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="72" id="sne-kQ-NAY"/>
             </constraints>
         </view>
     </objects>

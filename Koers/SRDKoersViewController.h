@@ -12,4 +12,5 @@
 @property (weak, nonatomic) IBOutlet UIView *tblView;
 @property (weak, nonatomic) IBOutlet UILabel *lblStraatOfBank;
 @property NSString *vcTypeBankOfSTraat;
+@property (weak, nonatomic) IBOutlet UILabel *lblAdv;
 @end

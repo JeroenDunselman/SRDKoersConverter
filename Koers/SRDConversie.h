@@ -7,9 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "SRDConversieTVC.h"
 @interface SRDConversie : UIViewController <UITextFieldDelegate>
+@property (weak, nonatomic) IBOutlet UIView *tblVw;
 
-@property (weak, nonatomic) IBOutlet UITextField *valueFrom;
-@property (weak, nonatomic) IBOutlet UITextField *valueTo;
+//@property (weak, nonatomic) IBOutlet UITextField *valueFrom;
+//@property (weak, nonatomic) IBOutlet UITextField *valueTo;
 @end

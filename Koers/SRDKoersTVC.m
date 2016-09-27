@@ -25,11 +25,11 @@ UIColor *colorHome;
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-    if ([self.vcTypeStraatOfBank isEqualToString: @"straat"]) {
-        self.tableView.backgroundColor = [UIColor blueColor];
-    } else {
-        self.tableView.backgroundColor = [UIColor greenColor];
-    }
+//    if ([self.vcTypeStraatOfBank isEqualToString: @"straat"]) {
+//        self.tableView.backgroundColor = [UIColor blueColor];
+//    } else {
+//        self.tableView.backgroundColor = [UIColor greenColor];
+//    }
     colorHome = [UIColor colorWithRed:151.0f/255.0f green:186.0f/255.0f blue:106.0f/255.0f alpha:1.0f];
     
 //    self.tableView.backgroundColor = colorHome; //[UIColor blueColor];
@@ -46,23 +46,23 @@ UIColor *colorHome;
      */
     
     [self.tableView registerClass:[SRDKoersCell class] forCellReuseIdentifier:@"koersValutaType"];
-    [self.tableView registerClass:[SRDKoersHeaderCell class] forCellReuseIdentifier:@"koersHeader"];
-    [self.tableView registerClass:[SRDAdvertentieCell class] forCellReuseIdentifier:@"koersAdvertentie"];
-    
+//    [self.tableView registerClass:[SRDKoersHeaderCell class] forCellReuseIdentifier:@"koersHeader"];
+//    [self.tableView registerClass:[SRDAdvertentieCell class] forCellReuseIdentifier:@"koersAdvertentie"];
+//    
     [self.tableView registerNib:[UINib nibWithNibName:@"SRDKoersCell" bundle:nil] forCellReuseIdentifier:@"koersValutaType"];
-    [self.tableView registerNib:[UINib nibWithNibName:@"SRDKoersHeaderCell" bundle:nil] forCellReuseIdentifier:@"koersHeader"];
-    [self.tableView registerNib:[UINib nibWithNibName:@"SRDAdvertentieCell" bundle:nil] forCellReuseIdentifier:@"koersAdvertentie"];
-    //
+//    [self.tableView registerNib:[UINib nibWithNibName:@"SRDKoersHeaderCell" bundle:nil] forCellReuseIdentifier:@"koersHeader"];
+//    [self.tableView registerNib:[UINib nibWithNibName:@"SRDAdvertentieCell" bundle:nil] forCellReuseIdentifier:@"koersAdvertentie"];
+//    //
     //    self.tableView.register[(UINib(nibName: "SRDKoersHeaderCell", bundle: Bundle.main), forCellReuseIdentifier: "koersHeader") ];
     
     titleKeys = [NSArray arrayWithObjects:
-                 @"Koers.sr beta Dagkoers <datum>",
                  @"Aankoop Dollar",
                  @"Aankoop Euro",
                  @"Verkoop Dollar",
                  @"Verkoop Euro",
-                 @"Advertentie",
                  nil];
+    //                 @"Koers.sr beta Dagkoers <datum>",
+    //                 @"Advertentie",
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
     
@@ -75,14 +75,14 @@ UIColor *colorHome;
     CGFloat result;
     
     result = 100.0f;
-    if (indexPath.row == 0  )
-    {
-        result = 120.0f;
-    }
-    if ( indexPath.row == [titleKeys count] - 1 )
-    {
-        result = 220.0f;
-    }
+//    if (indexPath.row == 0  )
+//    {
+//        result = 120.0f;
+//    }
+//    if ( indexPath.row == [titleKeys count] - 1 )
+//    {
+//        result = 220.0f;
+//    }
     
     return result;
 }
@@ -91,19 +91,19 @@ UIColor *colorHome;
     
     NSString *cellType = @"";
     
-    if (indexPath.row == 0) {
-        cellType = @"koersHeader";
-        SRDKoersHeaderCell *cell = [tableView dequeueReusableCellWithIdentifier:cellType forIndexPath:indexPath];
-//        cell.textLabel.text = [titleKeys objectAtIndex:indexPath.row];
-        return cell;
-    }
-    
-    if (indexPath.row == [titleKeys count] - 1) {
-        cellType = @"koersAdvertentie";
-        SRDAdvertentieCell *cell = [tableView dequeueReusableCellWithIdentifier:cellType forIndexPath:indexPath];
-//        cell.textLabel.text = [titleKeys objectAtIndex:indexPath.row];
-        return cell;
-    }
+//    if (indexPath.row == 0) {
+//        cellType = @"koersHeader";
+//        SRDKoersHeaderCell *cell = [tableView dequeueReusableCellWithIdentifier:cellType forIndexPath:indexPath];
+////        cell.textLabel.text = [titleKeys objectAtIndex:indexPath.row];
+//        return cell;
+//    }
+//    
+//    if (indexPath.row == [titleKeys count] - 1) {
+//        cellType = @"koersAdvertentie";
+//        SRDAdvertentieCell *cell = [tableView dequeueReusableCellWithIdentifier:cellType forIndexPath:indexPath];
+////        cell.textLabel.text = [titleKeys objectAtIndex:indexPath.row];
+//        return cell;
+//    }
     
     cellType = @"koersValutaType";
     SRDKoersCell *cell = [tableView dequeueReusableCellWithIdentifier:cellType forIndexPath:indexPath];
@@ -115,7 +115,10 @@ UIColor *colorHome;
         cell.bgValuta.backgroundColor = colorBlue;
         //        cell.textLabel.textColor =  colorBlue;
     }
-
+//label.font = [UIFont fontWithName:@"HelveticaNeue-Thin" size:16.0f];
+   cell.perc.font = [UIFont fontWithName:@"HelveticaNeue-Thin" size:17.0f];
+    cell.val.font = [UIFont fontWithName:@"HelveticaNeue-Thin" size:37.0f];
+    cell.hdr.font = [UIFont fontWithName:@"HelveticaNeue-Thin" size:17.0f];
     return cell;
 }
 
