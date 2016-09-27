@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A97A06981D997F81001013A8 /* Currency Exchange-100.png in Resources */ = {isa = PBXBuildFile; fileRef = A97A06931D997F81001013A8 /* Currency Exchange-100.png */; };
+		A97A06991D997F81001013A8 /* Attention-100.png in Resources */ = {isa = PBXBuildFile; fileRef = A97A06941D997F81001013A8 /* Attention-100.png */; };
+		A97A069A1D997F81001013A8 /* Library-100.png in Resources */ = {isa = PBXBuildFile; fileRef = A97A06951D997F81001013A8 /* Library-100.png */; };
+		A97A069B1D997F81001013A8 /* Road-100.png in Resources */ = {isa = PBXBuildFile; fileRef = A97A06961D997F81001013A8 /* Road-100.png */; };
+		A97A069C1D997F81001013A8 /* koers_app_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = A97A06971D997F81001013A8 /* koers_app_logo.png */; };
 		A9D1140C1D95550C0015EB34 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A9D1140B1D95550C0015EB34 /* main.m */; };
 		A9D1140F1D95550C0015EB34 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A9D1140E1D95550C0015EB34 /* AppDelegate.m */; };
 		A9D114121D95550C0015EB34 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9D114111D95550C0015EB34 /* ViewController.m */; };
@@ -15,6 +20,27 @@
 		A9D1141A1D95550C0015EB34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9D114181D95550C0015EB34 /* LaunchScreen.storyboard */; };
 		A9D114251D95550C0015EB34 /* KoersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A9D114241D95550C0015EB34 /* KoersTests.m */; };
 		A9D114301D95550C0015EB34 /* KoersUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A9D1142F1D95550C0015EB34 /* KoersUITests.m */; };
+		A9D1143F1D9555380015EB34 /* TabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9D1143E1D9555380015EB34 /* TabBarController.m */; };
+		A9D114431D9558140015EB34 /* SRDKoersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9D114411D9558140015EB34 /* SRDKoersViewController.m */; };
+		A9D114441D9558140015EB34 /* SRDKoersViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9D114421D9558140015EB34 /* SRDKoersViewController.xib */; };
+		A9D114481D955AF20015EB34 /* SRDConversie.m in Sources */ = {isa = PBXBuildFile; fileRef = A9D114461D955AF20015EB34 /* SRDConversie.m */; };
+		A9D114491D955AF20015EB34 /* SRDConversie.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9D114471D955AF20015EB34 /* SRDConversie.xib */; };
+		A9D1144D1D955E640015EB34 /* SRDInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = A9D1144B1D955E640015EB34 /* SRDInfo.m */; };
+		A9D1144E1D955E640015EB34 /* SRDInfo.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9D1144C1D955E640015EB34 /* SRDInfo.xib */; };
+		A9D82F971D97B7CD008E6F6D /* SRDKoersTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A9D82F961D97B7CD008E6F6D /* SRDKoersTVC.m */; };
+		A9D82F9B1D97BFFD008E6F6D /* SRDKoersHeaderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A9D82F991D97BFFD008E6F6D /* SRDKoersHeaderCell.m */; };
+		A9D82F9C1D97BFFD008E6F6D /* SRDKoersHeaderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9D82F9A1D97BFFD008E6F6D /* SRDKoersHeaderCell.xib */; };
+		A9D82FA01D97CBCB008E6F6D /* SRDAdvertentieCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A9D82F9E1D97CBCB008E6F6D /* SRDAdvertentieCell.m */; };
+		A9D82FA11D97CBCB008E6F6D /* SRDAdvertentieCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9D82F9F1D97CBCB008E6F6D /* SRDAdvertentieCell.xib */; };
+		A9D82FA31D97CF2A008E6F6D /* koers header.png in Resources */ = {isa = PBXBuildFile; fileRef = A9D82FA21D97CF2A008E6F6D /* koers header.png */; };
+		A9D82FA51D97D0AB008E6F6D /* advertentie.png in Resources */ = {isa = PBXBuildFile; fileRef = A9D82FA41D97D0AB008E6F6D /* advertentie.png */; };
+		A9D82FA91D97E8C9008E6F6D /* SRDConversieCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A9D82FA71D97E8C9008E6F6D /* SRDConversieCell.m */; };
+		A9D82FAA1D97E8C9008E6F6D /* SRDConversieCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9D82FA81D97E8C9008E6F6D /* SRDConversieCell.xib */; };
+		A9D82FB21D97EC10008E6F6D /* SRDConversieTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A9D82FB11D97EC10008E6F6D /* SRDConversieTVC.m */; };
+		A9D82FB61D980503008E6F6D /* SRDKoersCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A9D82FB41D980503008E6F6D /* SRDKoersCell.m */; };
+		A9D82FB71D980503008E6F6D /* SRDKoersCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9D82FB51D980503008E6F6D /* SRDKoersCell.xib */; };
+		A9D82FB91D9822A9008E6F6D /* koers_app_straatkoers_splash.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A9D82FB81D9822A9008E6F6D /* koers_app_straatkoers_splash.jpg */; };
+		A9D82FBC1D982850008E6F6D /* TSCurrencyTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = A9D82FBA1D982850008E6F6D /* TSCurrencyTextField.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +61,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A97A06931D997F81001013A8 /* Currency Exchange-100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Currency Exchange-100.png"; sourceTree = "<group>"; };
+		A97A06941D997F81001013A8 /* Attention-100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Attention-100.png"; sourceTree = "<group>"; };
+		A97A06951D997F81001013A8 /* Library-100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Library-100.png"; sourceTree = "<group>"; };
+		A97A06961D997F81001013A8 /* Road-100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Road-100.png"; sourceTree = "<group>"; };
+		A97A06971D997F81001013A8 /* koers_app_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = koers_app_logo.png; sourceTree = "<group>"; };
 		A9D114071D95550C0015EB34 /* Koers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Koers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9D1140B1D95550C0015EB34 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A9D1140D1D95550C0015EB34 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +82,38 @@
 		A9D1142B1D95550C0015EB34 /* KoersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KoersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9D1142F1D95550C0015EB34 /* KoersUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KoersUITests.m; sourceTree = "<group>"; };
 		A9D114311D95550C0015EB34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9D1143D1D9555380015EB34 /* TabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarController.h; sourceTree = "<group>"; };
+		A9D1143E1D9555380015EB34 /* TabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarController.m; sourceTree = "<group>"; };
+		A9D114401D9558140015EB34 /* SRDKoersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRDKoersViewController.h; sourceTree = "<group>"; };
+		A9D114411D9558140015EB34 /* SRDKoersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRDKoersViewController.m; sourceTree = "<group>"; };
+		A9D114421D9558140015EB34 /* SRDKoersViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SRDKoersViewController.xib; sourceTree = "<group>"; };
+		A9D114451D955AF20015EB34 /* SRDConversie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRDConversie.h; sourceTree = "<group>"; };
+		A9D114461D955AF20015EB34 /* SRDConversie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRDConversie.m; sourceTree = "<group>"; };
+		A9D114471D955AF20015EB34 /* SRDConversie.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SRDConversie.xib; sourceTree = "<group>"; };
+		A9D1144A1D955E640015EB34 /* SRDInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRDInfo.h; sourceTree = "<group>"; };
+		A9D1144B1D955E640015EB34 /* SRDInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRDInfo.m; sourceTree = "<group>"; };
+		A9D1144C1D955E640015EB34 /* SRDInfo.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SRDInfo.xib; sourceTree = "<group>"; };
+		A9D82F951D97B7CD008E6F6D /* SRDKoersTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRDKoersTVC.h; sourceTree = "<group>"; };
+		A9D82F961D97B7CD008E6F6D /* SRDKoersTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRDKoersTVC.m; sourceTree = "<group>"; };
+		A9D82F981D97BFFD008E6F6D /* SRDKoersHeaderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SRDKoersHeaderCell.h; path = ../SRDKoersHeaderCell.h; sourceTree = "<group>"; };
+		A9D82F991D97BFFD008E6F6D /* SRDKoersHeaderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SRDKoersHeaderCell.m; path = ../SRDKoersHeaderCell.m; sourceTree = "<group>"; };
+		A9D82F9A1D97BFFD008E6F6D /* SRDKoersHeaderCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SRDKoersHeaderCell.xib; path = ../SRDKoersHeaderCell.xib; sourceTree = "<group>"; };
+		A9D82F9D1D97CBCB008E6F6D /* SRDAdvertentieCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SRDAdvertentieCell.h; path = ../SRDAdvertentieCell.h; sourceTree = "<group>"; };
+		A9D82F9E1D97CBCB008E6F6D /* SRDAdvertentieCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SRDAdvertentieCell.m; path = ../SRDAdvertentieCell.m; sourceTree = "<group>"; };
+		A9D82F9F1D97CBCB008E6F6D /* SRDAdvertentieCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SRDAdvertentieCell.xib; path = ../SRDAdvertentieCell.xib; sourceTree = "<group>"; };
+		A9D82FA21D97CF2A008E6F6D /* koers header.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "koers header.png"; sourceTree = "<group>"; };
+		A9D82FA41D97D0AB008E6F6D /* advertentie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = advertentie.png; sourceTree = "<group>"; };
+		A9D82FA61D97E8C9008E6F6D /* SRDConversieCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRDConversieCell.h; sourceTree = "<group>"; };
+		A9D82FA71D97E8C9008E6F6D /* SRDConversieCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRDConversieCell.m; sourceTree = "<group>"; };
+		A9D82FA81D97E8C9008E6F6D /* SRDConversieCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SRDConversieCell.xib; sourceTree = "<group>"; };
+		A9D82FB01D97EC10008E6F6D /* SRDConversieTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRDConversieTVC.h; sourceTree = "<group>"; };
+		A9D82FB11D97EC10008E6F6D /* SRDConversieTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRDConversieTVC.m; sourceTree = "<group>"; };
+		A9D82FB31D980503008E6F6D /* SRDKoersCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SRDKoersCell.h; path = ../SRDKoersCell.h; sourceTree = "<group>"; };
+		A9D82FB41D980503008E6F6D /* SRDKoersCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SRDKoersCell.m; path = ../SRDKoersCell.m; sourceTree = "<group>"; };
+		A9D82FB51D980503008E6F6D /* SRDKoersCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SRDKoersCell.xib; path = ../SRDKoersCell.xib; sourceTree = "<group>"; };
+		A9D82FB81D9822A9008E6F6D /* koers_app_straatkoers_splash.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = koers_app_straatkoers_splash.jpg; sourceTree = "<group>"; };
+		A9D82FBA1D982850008E6F6D /* TSCurrencyTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSCurrencyTextField.m; sourceTree = "<group>"; };
+		A9D82FBB1D982850008E6F6D /* TSCurrencyTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSCurrencyTextField.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +164,9 @@
 		A9D114091D95550C0015EB34 /* Koers */ = {
 			isa = PBXGroup;
 			children = (
-				A9D1140D1D95550C0015EB34 /* AppDelegate.h */,
-				A9D1140E1D95550C0015EB34 /* AppDelegate.m */,
-				A9D114101D95550C0015EB34 /* ViewController.h */,
-				A9D114111D95550C0015EB34 /* ViewController.m */,
-				A9D114131D95550C0015EB34 /* Main.storyboard */,
+				A9D82FAD1D97E8E3008E6F6D /* Ctrl */,
+				A9D82FAC1D97E8DB008E6F6D /* View */,
+				A9D82FAB1D97E8D2008E6F6D /* Model */,
 				A9D114161D95550C0015EB34 /* Assets.xcassets */,
 				A9D114181D95550C0015EB34 /* LaunchScreen.storyboard */,
 				A9D1141B1D95550C0015EB34 /* Info.plist */,
@@ -138,6 +199,85 @@
 				A9D114311D95550C0015EB34 /* Info.plist */,
 			);
 			path = KoersUITests;
+			sourceTree = "<group>";
+		};
+		A9D82FAB1D97E8D2008E6F6D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		A9D82FAC1D97E8DB008E6F6D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A97A06931D997F81001013A8 /* Currency Exchange-100.png */,
+				A97A06941D997F81001013A8 /* Attention-100.png */,
+				A97A06951D997F81001013A8 /* Library-100.png */,
+				A97A06961D997F81001013A8 /* Road-100.png */,
+				A97A06971D997F81001013A8 /* koers_app_logo.png */,
+				A9D82FB81D9822A9008E6F6D /* koers_app_straatkoers_splash.jpg */,
+				A9D82FA21D97CF2A008E6F6D /* koers header.png */,
+				A9D82FA41D97D0AB008E6F6D /* advertentie.png */,
+				A9D82F9F1D97CBCB008E6F6D /* SRDAdvertentieCell.xib */,
+				A9D82F9A1D97BFFD008E6F6D /* SRDKoersHeaderCell.xib */,
+				A9D114471D955AF20015EB34 /* SRDConversie.xib */,
+				A9D114421D9558140015EB34 /* SRDKoersViewController.xib */,
+				A9D1144C1D955E640015EB34 /* SRDInfo.xib */,
+				A9D82FA81D97E8C9008E6F6D /* SRDConversieCell.xib */,
+				A9D82FB51D980503008E6F6D /* SRDKoersCell.xib */,
+				A9D114131D95550C0015EB34 /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		A9D82FAD1D97E8E3008E6F6D /* Ctrl */ = {
+			isa = PBXGroup;
+			children = (
+				A9D82FAF1D97EAFF008E6F6D /* TVC */,
+				A9D82FAE1D97EA91008E6F6D /* Cells */,
+				A9D114451D955AF20015EB34 /* SRDConversie.h */,
+				A9D114461D955AF20015EB34 /* SRDConversie.m */,
+				A9D114401D9558140015EB34 /* SRDKoersViewController.h */,
+				A9D114411D9558140015EB34 /* SRDKoersViewController.m */,
+				A9D1140D1D95550C0015EB34 /* AppDelegate.h */,
+				A9D1140E1D95550C0015EB34 /* AppDelegate.m */,
+				A9D1143D1D9555380015EB34 /* TabBarController.h */,
+				A9D1143E1D9555380015EB34 /* TabBarController.m */,
+				A9D114101D95550C0015EB34 /* ViewController.h */,
+				A9D114111D95550C0015EB34 /* ViewController.m */,
+				A9D1144A1D955E640015EB34 /* SRDInfo.h */,
+				A9D1144B1D955E640015EB34 /* SRDInfo.m */,
+				A9D82FBA1D982850008E6F6D /* TSCurrencyTextField.m */,
+				A9D82FBB1D982850008E6F6D /* TSCurrencyTextField.h */,
+			);
+			name = Ctrl;
+			sourceTree = "<group>";
+		};
+		A9D82FAE1D97EA91008E6F6D /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				A9D82FB31D980503008E6F6D /* SRDKoersCell.h */,
+				A9D82FB41D980503008E6F6D /* SRDKoersCell.m */,
+				A9D82FA61D97E8C9008E6F6D /* SRDConversieCell.h */,
+				A9D82FA71D97E8C9008E6F6D /* SRDConversieCell.m */,
+				A9D82F9D1D97CBCB008E6F6D /* SRDAdvertentieCell.h */,
+				A9D82F9E1D97CBCB008E6F6D /* SRDAdvertentieCell.m */,
+				A9D82F981D97BFFD008E6F6D /* SRDKoersHeaderCell.h */,
+				A9D82F991D97BFFD008E6F6D /* SRDKoersHeaderCell.m */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		A9D82FAF1D97EAFF008E6F6D /* TVC */ = {
+			isa = PBXGroup;
+			children = (
+				A9D82F951D97B7CD008E6F6D /* SRDKoersTVC.h */,
+				A9D82F961D97B7CD008E6F6D /* SRDKoersTVC.m */,
+				A9D82FB01D97EC10008E6F6D /* SRDConversieTVC.h */,
+				A9D82FB11D97EC10008E6F6D /* SRDConversieTVC.m */,
+			);
+			name = TVC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,9 +383,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9D82FAA1D97E8C9008E6F6D /* SRDConversieCell.xib in Resources */,
+				A97A069C1D997F81001013A8 /* koers_app_logo.png in Resources */,
 				A9D1141A1D95550C0015EB34 /* LaunchScreen.storyboard in Resources */,
+				A9D82FA31D97CF2A008E6F6D /* koers header.png in Resources */,
+				A9D1144E1D955E640015EB34 /* SRDInfo.xib in Resources */,
+				A9D82FA51D97D0AB008E6F6D /* advertentie.png in Resources */,
+				A97A069A1D997F81001013A8 /* Library-100.png in Resources */,
+				A9D82FB91D9822A9008E6F6D /* koers_app_straatkoers_splash.jpg in Resources */,
+				A97A069B1D997F81001013A8 /* Road-100.png in Resources */,
 				A9D114171D95550C0015EB34 /* Assets.xcassets in Resources */,
+				A9D82FA11D97CBCB008E6F6D /* SRDAdvertentieCell.xib in Resources */,
+				A9D114491D955AF20015EB34 /* SRDConversie.xib in Resources */,
+				A9D82F9C1D97BFFD008E6F6D /* SRDKoersHeaderCell.xib in Resources */,
+				A97A06981D997F81001013A8 /* Currency Exchange-100.png in Resources */,
 				A9D114151D95550C0015EB34 /* Main.storyboard in Resources */,
+				A9D82FB71D980503008E6F6D /* SRDKoersCell.xib in Resources */,
+				A97A06991D997F81001013A8 /* Attention-100.png in Resources */,
+				A9D114441D9558140015EB34 /* SRDKoersViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,8 +425,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9D82F9B1D97BFFD008E6F6D /* SRDKoersHeaderCell.m in Sources */,
 				A9D114121D95550C0015EB34 /* ViewController.m in Sources */,
+				A9D82FB61D980503008E6F6D /* SRDKoersCell.m in Sources */,
+				A9D114431D9558140015EB34 /* SRDKoersViewController.m in Sources */,
+				A9D82FA01D97CBCB008E6F6D /* SRDAdvertentieCell.m in Sources */,
+				A9D82F971D97B7CD008E6F6D /* SRDKoersTVC.m in Sources */,
+				A9D1144D1D955E640015EB34 /* SRDInfo.m in Sources */,
+				A9D82FBC1D982850008E6F6D /* TSCurrencyTextField.m in Sources */,
+				A9D1143F1D9555380015EB34 /* TabBarController.m in Sources */,
 				A9D1140F1D95550C0015EB34 /* AppDelegate.m in Sources */,
+				A9D82FB21D97EC10008E6F6D /* SRDConversieTVC.m in Sources */,
+				A9D114481D955AF20015EB34 /* SRDConversie.m in Sources */,
+				A9D82FA91D97E8C9008E6F6D /* SRDConversieCell.m in Sources */,
 				A9D1140C1D95550C0015EB34 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -496,6 +662,7 @@
 				A9D114361D95550C0015EB34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A9D114371D95550C0015EB34 /* Build configuration list for PBXNativeTarget "KoersTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +671,7 @@
 				A9D114391D95550C0015EB34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A9D1143A1D95550C0015EB34 /* Build configuration list for PBXNativeTarget "KoersUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +680,7 @@
 				A9D1143C1D95550C0015EB34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

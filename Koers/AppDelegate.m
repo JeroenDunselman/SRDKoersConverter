@@ -7,6 +7,12 @@
 //
 
 #import "AppDelegate.h"
+#import "TabBarController.h"
+#import "SRDKoersViewController.h"
+#import "SRDConversie.h"
+#import "SRDInfo.h"
+#import "SRDKoersTVC.h"
+#import "SRDConversieTVC.h"
 
 @interface AppDelegate ()
 
@@ -17,8 +23,43 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    [self makeTabs];
+    self.window.rootViewController = self.tabBarController;
+    [self.tabBarController setDelegate:self];
+    
     return YES;
 }
+
+-(void) makeTabs{
+    self.tabBarController = [[TabBarController alloc] init];
+//    Hierbij de kleuren:
+//    Kleur Groen: #97ba6a
+//    Kleur Blauw Dollar: #004358
+//    Kleur Oranje Euro: #fd7400
+    UIColor *colorHome = [UIColor colorWithRed:151.0f/255.0f green:186.0f/255.0f blue:106.0f/255.0f alpha:1.0f];
+    
+    [[UITabBar appearance] setTintColor:[UIColor whiteColor]];
+    [[UITabBar appearance] setBarTintColor:colorHome];
+    
+//    SRDKoersTVC *test = [[SRDKoersTVC alloc] init];
+//    test.vcTypeStraatOfBank = @"straat";
+//    SRDKoersTVC *bank = [[SRDKoersTVC alloc] init];
+//    bank.vcTypeStraatOfBank = @"bank";
+//
+    SRDConversieTVC *test = [[SRDConversieTVC alloc] init] ;
+    
+    SRDKoersViewController *straat = [[SRDKoersViewController alloc] initWithNibName:@"SRDKoersViewController" bundle:nil];
+    straat.vcTypeBankOfSTraat = @"straat";
+    SRDKoersViewController *bank = [[SRDKoersViewController alloc] initWithNibName:@"SRDKoersViewController" bundle:nil];
+    bank.vcTypeBankOfSTraat = @"bank";
+    SRDConversieTVC *conversie = [[SRDConversieTVC alloc] init] ;
+    SRDInfo *info = [[SRDInfo alloc] initWithNibName:@"SRDInfo" bundle:nil];
+
+    self.tabBarController.viewControllers = [NSArray arrayWithObjects: test, straat, bank, conversie, info, nil];
+//self.tabBarController.viewControllers = [NSArray arrayWithObjects: straat, nil];
+}
+
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
