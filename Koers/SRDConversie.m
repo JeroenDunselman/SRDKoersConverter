@@ -27,7 +27,7 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
-    //wtf
+    //
 }
 
 - (BOOL)textFieldShouldReturn:(UITextField *)textField
